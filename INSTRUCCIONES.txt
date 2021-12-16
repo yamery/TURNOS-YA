@@ -1,0 +1,23 @@
+INSTRUCCIONES PARA VISUALIZACION Y USO DE LA PRIMERA ENTREGA
+
+ importar al phpmyadmin la base de datos de nombre turnos-ya encontrada en la carpeta raiz del proyecto.
+   "esta base de datos tiene registros realizados previamente.". estos registro son 
+importantes para la visualizacion correcta de la plantilla ya que permitira 
+observar el estilo y comportamiento de las listas de las empresa y los turnos. 
+
+
+
+
+Lista de usuario y contraseñas en la tabla usuario. existen dos tipo de usuario 1 = usuario normal cliente y 2 = usuario con empresa
+
+
+
+"si existe algun inconveniente durante la instalacion, comunicarse al siguiente numeo 3156896932"
+
+
+
+
+CREADORES DEL PROYECTO:
+
+-YENIFER VALENCIA ESTRADA
+-JONATHAN QUIÑONEZ RAMIREZ

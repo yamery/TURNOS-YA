@@ -1,0 +1,274 @@
+/* Header example */
+
+.pagespan {
+    max-width: 1140px;
+}
+
+.example {
+    margin: 80px auto 20px;
+}
+
+.example button,
+.example button {
+    background: transparent;
+    border: 0;
+    color: black;
+    opacity: .5;
+}
+
+.example button:hover,
+.example button:hover {
+    opacity: 1;
+}
+
+.example .forward,
+.example .backward {
+    float: left;
+    width: 100px;
+    height: 200px;
+    font-size: 60px;
+}
+
+.example .forward {
+    float: right;
+}
+
+.example .frame {
+    margin: 0 auto;
+    width: 940px;
+    height: 250px;
+    line-height: 200px;
+    overflow: hidden;
+    text-shadow: none;
+}
+
+.example .frame ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 50px;
+}
+
+.example .frame ul li {
+    float: left;
+    width: 300px;
+    height: 100%;
+    margin: 0 8px 0 0;
+    padding: 0;
+    background: black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border-color: blue;
+    border-radius: 6px;
+}
+
+.example .frame ul .taq {
+    float: left;
+    width: 300px;
+    height: 50%;
+    margin: 0 8px 0 0;
+    padding: 0;
+    background: black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border-color: blue;
+    border-radius: 6px;
+}
+
+.tarjetaTurn {
+    height: 100%;
+}
+
+.img-card {
+    height: 75%;
+    width: 90%;
+}
+
+.example .frame ul li.active {
+    color: rgb(83, 83, 79);
+    background: #82bf4c;
+}
+
+.example .scrollbar {
+    margin: 0 auto 30px;
+    width: 940px;
+    height: 2px;
+    line-height: 0;
+}
+
+.example .scrollbar .handle {
+    width: 100px;
+    height: 100%;
+    background: black;
+    cursor: pointer;
+}
+
+.example .scrollbar .handle .mousearea {
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.example .pages {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.example .pages li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.example .pages li:hover {
+    background: #aaa;
+}
+
+.example .pages li.active {
+    background: #666;
+}
+
+.example .controls {
+    margin: 50px 0 0;
+    text-align: center;
+}
+
+.example .controls .divider {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.example .controls button {
+    line-height: 32px;
+    vertical-align: middle;
+    font-family: Novecento, sans-serif;
+}
+
+.example .controls button i {
+    position: relative;
+    top: -2px;
+    margin: 5px;
+    padding: 0;
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+
+/* CSS LISTA TURNOS VERTICAL */
+
+body {
+    background: #e8e8e8;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+/* Example wrapper */
+
+.wrap {
+    position: relative;
+    width: 700px;
+    margin: auto;
+}
+
+.wrap:nth-child(2n) {
+    margin-right: 0;
+}
+
+
+/* Frame */
+
+.frame {
+    width: 700px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.frame .slidee {
+    padding: 20px 25px;
+    background: #fff;
+}
+
+.frame ul.items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.frame ul.items li {
+    float: left;
+    width: 100%;
+    margin: 0 0 50px;
+    padding: 0;
+    background: black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.frame ul.items li.active {
+    color: #fff;
+    background: #a03232;
+}
+
+
+/* Pages */
+
+.pages {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pages li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: black;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+}
+
+.pages li:hover {
+    background: #aaa;
+}
+
+.pages li.active {
+    background: #666;
+}
+
+
+/* Controls */
+
+.controls {
+    margin: 25px 0;
+    text-align: center;
+}
+
+
+/* Scrollbar */
